@@ -1,2 +1,41 @@
 1. https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes
 2. https://git-scm.com/docs/git-add
+
+
+
+
+Steps Performed:
+1. Create a Springboot project from Spring start.io.
+2. Download the project to your local.
+   Initialize the local folder with git repository.
+   git init.
+3. Create a repository in the Github.
+   At this point of time, there is no master or branch in the Github.
+   But, at this time Github gives the remote url.
+   This remote url needs to be added as the orgin in the local git.
+4. Add the remote url as the origin:
+   git remote add origin https://github.com/ravi-coderepo/github_command_practice.git
+5. git config --list 
+   Above command gives the user credential and the remote url configurations:
+   init.defaultbranch=master
+	user.name=ravi
+	user.email=ravicsdocuments@gmail.com
+	core.repositoryformatversion=0
+	core.filemode=false
+	core.bare=false
+	core.logallrefupdates=true
+	core.symlinks=false
+	core.ignorecase=true
+	remote.origin.url=https://github.com/ravi-coderepo/github_command_practice.git
+	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+6. Difference between git pull and git fetch
+   - https://stackoverflow.com/questions/292357/what-is-the-difference-between-git-pull-and-git-fetch#:~:text=git%20fetch%20just%20%22downloads%22%20the,them%20into%20your%20current%20branch.
+7. Calculate the difference between local and remote repository.
+   - git fetch
+   - git diff master origin/master
+8. 
+
+
+
+
+       
