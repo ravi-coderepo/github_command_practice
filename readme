@@ -34,6 +34,7 @@ Steps Performed:
    - git fetch
    - git diff master origin/master
 8. git how to check if there is something to push?
+<<<<<<< HEAD
    git cherry -v
 9. List all the commits.
    $ git cherry -v
@@ -44,6 +45,8 @@ Steps Performed:
     git push <remotename> <commit SHA>:<remotebranchname>
     Ex- git push origin a50e104051ac8eec0308f81d352471c47a015940:master
 11. 
+=======
+>>>>>>> parent of 209164a (Check if there is something to push -- 2?)
          
 
 
