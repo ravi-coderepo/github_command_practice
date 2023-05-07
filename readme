@@ -34,7 +34,17 @@ Steps Performed:
    - git fetch
    - git diff master origin/master
 8. git how to check if there is something to push?
-   git cherry -v      
+   git cherry -v
+9. List all the commits.
+   $ git cherry -v
+	+ a50e104051ac8eec0308f81d352471c47a015940 Check if there is something to push?
+	+ 209164a8d32b6db39ab95f116262cb3d5c0561ec Check if there is something to push -- 2?
+	+ 64feac7d01b15f427d91aa8b55f3972f64f5149c Check if there is something to push -- 3?
+10. Push a particular commit to the remote repository.
+    git push <remotename> <commit SHA>:<remotebranchname>
+    Ex- git push origin a50e104051ac8eec0308f81d352471c47a015940:master
+11. 
+         
 
 
 
