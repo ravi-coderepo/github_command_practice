@@ -34,7 +34,7 @@ Steps Performed:
    - git fetch
    - git diff master origin/master
 8. git how to check if there is something to push?
-         
+   git cherry -v      
 
 
 
