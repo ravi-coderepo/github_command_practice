@@ -33,7 +33,8 @@ Steps Performed:
 7. Calculate the difference between local and remote repository.
    - git fetch
    - git diff master origin/master
-8. 
+8. git how to check if there is something to push?
+      
 
 
 
